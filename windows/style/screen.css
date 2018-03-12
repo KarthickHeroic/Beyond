@@ -489,28 +489,49 @@ header .logo img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#393186', GradientType=0 );
   /* IE6-9 */
 }
-/* line 7, ../sass/layout/_login.scss */
-#login .logo {
-  position: absolute;
-  top: 50px;
-}
-/* line 10, ../sass/layout/_login.scss */
+/* line 9, ../sass/layout/_login.scss */
 #login .logo img {
   height: 80px;
 }
-/* line 15, ../sass/layout/_login.scss */
+/* line 14, ../sass/layout/_login.scss */
 #login .height100 {
   height: 100%;
 }
-/* line 16, ../sass/layout/_login.scss */
-#login .loginview {
+/* line 15, ../sass/layout/_login.scss */
+#login .signupview {
   width: 400px;
-  height: 470px;
+  height: 550px;
   background-color: #fff;
 }
-/* line 20, ../sass/layout/_login.scss */
+/* line 19, ../sass/layout/_login.scss */
+#login .signupview .loginform {
+  padding: 10px 30px 0 30px;
+}
+/* line 23, ../sass/layout/_login.scss */
+#login .signupview .md-button {
+  min-width: 220px;
+  min-height: 40px;
+}
+/* line 31, ../sass/layout/_login.scss */
+#login .loginview {
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+}
+/* line 35, ../sass/layout/_login.scss */
 #login .loginview .loginform {
   padding: 10px 30px 0 30px;
+}
+/* line 41, ../sass/layout/_login.scss */
+#login .signtxt {
+  color: #ffffff;
+  font-weight: 300;
+}
+/* line 45, ../sass/layout/_login.scss */
+#login .signtxt a {
+  color: #ffffff;
+  font-weight: 400;
+  padding-left: 5px;
 }
 
 /* No files to import found in grid/**\/* */
